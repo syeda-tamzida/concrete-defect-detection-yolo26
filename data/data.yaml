@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Exposed_reinforcement', 'Ruststrain', 'Scaling', 'Spalling', 'crack', 'efflorescence']
+
+roboflow:
+  workspace: lexo-qpwz7
+  project: concrete-defect-detection-zuym8-u3uvi
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lexo-qpwz7/concrete-defect-detection-zuym8-u3uvi/dataset/2
